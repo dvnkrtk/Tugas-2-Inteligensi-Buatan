@@ -62,10 +62,9 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 project/
 ├─ README.md
 ├─ a_star.py
+├─ edges.py
 ├─ gbfs.py
+├─ heuristics.py
 ├─ ids.py
 ├─ main.py
 ├─ ucs.py
-├─ edges.py
-├─ heuristics.py
-
