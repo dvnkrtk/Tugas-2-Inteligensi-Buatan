@@ -50,3 +50,21 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 ### 4. A* Search
 - Termasuk **informed search**.  
 - Prinsip: menggunakan fungsi evaluasi:
+-  `g(n)` = biaya dari titik awal sampai simpul n  
+- `h(n)` = estimasi biaya dari n ke goal  
+- **Kelebihan:** efisien dan optimal jika heuristik admissible.  
+- **Kekurangan:** butuh memori lebih banyak.  
+- Implementasi: file [`astar.py`](astar.py).
+
+---
+
+## 📂 Struktur Folder
+project/
+├─ edges.py 
+├─ heuristics.py 
+├─ ucs.py 
+├─ ids.py 
+├─ gbfs.py 
+├─ astar.py 
+└─ README.md 
+
