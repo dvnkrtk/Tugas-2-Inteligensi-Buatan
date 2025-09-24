@@ -1,13 +1,13 @@
 # Pencarian Rute Tercepat: Cilegon → Banyuwangi
 
-## 👥 Identitas Kelompok
+## Identitas Kelompok
 - Devina Kartika       - 123140036
 - Awi Septian Prasetyo - 123140201
 - Muhammad Bimastiar   - 123140221
 
 ---
 
-## 📊 Representasi Graf
+## Representasi Graf
 Graf dibentuk dari data **kota asal, kota tujuan, dan jarak antar kota**.  
 - Simpul (node) = nama kota  
 - Sisi (edge) = jalan yang menghubungkan kota  
@@ -18,7 +18,7 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 
 ---
 
-## 🔍 Metode Searching
+## Metode Searching
 
 ### 1. Uniform Cost Search (UCS)
 - Termasuk **uninformed search**.  
@@ -50,7 +50,7 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 ### 4. A* Search
 - Termasuk **informed search**.  
 - Prinsip: menggunakan fungsi evaluasi:
--  `g(n)` = biaya dari titik awal sampai simpul n  
+- `g(n)` = biaya dari titik awal sampai simpul n  
 - `h(n)` = estimasi biaya dari n ke goal  
 - **Kelebihan:** efisien dan optimal jika heuristik admissible.  
 - **Kekurangan:** butuh memori lebih banyak.  
@@ -58,13 +58,13 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 
 ---
 
-## 📂 Struktur Folder
+## Struktur Folder
 project/
-├─ edges.py 
-├─ heuristics.py 
-├─ ucs.py 
-├─ ids.py 
-├─ gbfs.py 
-├─ astar.py 
-└─ README.md 
+├─ A_star.py
+├─ GBFS.py
+├─IDS.py
+├─ README.md
+├─ UCS.py
+├─ edges.py
+├─ heuristics.py
 
