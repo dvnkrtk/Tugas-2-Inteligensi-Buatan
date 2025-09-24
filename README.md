@@ -60,11 +60,12 @@ Data graf tersimpan pada file `edges.py` dan data heuristik pada file `heuristic
 
 ## Struktur Folder
 project/
-├─ A_star.py
-├─ GBFS.py
-├─IDS.py
 ├─ README.md
-├─ UCS.py
+├─ a_star.py
+├─ gbfs.py
+├─ ids.py
+├─ main.py
+├─ ucs.py
 ├─ edges.py
 ├─ heuristics.py
 
